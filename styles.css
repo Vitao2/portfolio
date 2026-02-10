@@ -1,0 +1,77 @@
+/* Tags */
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    color: #fafafa;
+    height: 100%;
+    margin: 0;
+}
+
+/* ID's */
+#id_titulo {
+    max-width: fit-content;
+    font-size: 4rem;
+    font-weight: lighter;
+    /* border: 1px solid purple; */
+}
+
+#id_texto {
+    font-size: 0.5rem;
+}
+
+/* Classes */
+/* .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    border: 1px solid red;
+} */
+
+.content {
+    max-width: 90rem;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-small {
+    font-size: 0.875rem;
+}
+
+.text-smaller {
+    font-size: 0.6rem;
+}
+
+.img-cover {
+    height: 15rem;
+    /* ajuste aqui */
+    object-fit: cover;
+}
+
+.hero {
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image:
+        linear-gradient(rgba(31, 31, 31, 0.6), rgba(31, 31, 31, 1)),
+        url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-color {
+    background-color: rgba(31, 31, 31, 1);
+}
+
+.hero-color-light{
+    background-color: rgba(41, 41, 41, 1);
+}

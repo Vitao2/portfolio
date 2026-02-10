@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 hero-color">
+    <main class="flex-fill d-flex align-items-center justify-content-center hero" style="min-height: 35rem;">
+        <div class="text-center">
+            <h1 id="id_titulo">Bem-Vindo.</h1>
+            <p class="text-smaller fw-light text-start mx-auto" style="max-width: 35rem;">Sou estudante de Engenharia da
+                Computação com experiência em projetos acadêmicos e no desenvolvimento de
+                ferramentas personalizadas, principalmente em C#. Possuo prática com linguagens como Java e SQL e
+                interesse constante em ampliar meu domínio técnico.
+                Durante a graduação, venho atuando em projetos práticos que envolvem programação, análise de sistemas e
+                desenvolvimento de soluções, fortalecendo minha capacidade de resolver problemas e aprender novas
+                tecnologias com rapidez.
+            </p>
+        </div>
+    </main>
+
+    <div class="flex-fill d-flex align-items-center justify-content-center py-5 hero-color">
+        <div class="text-center">
+            <h1>Projetos</h1>
+            <p class="text-small fw-light text-center mx-auto" style="max-width: 30rem;"> Trabalhos acadêmicos e
+                iniciativas pessoais desenvolvidos ao longo dos anos durante a graduação em Engenharia da Computação.
+            </p>
+        </div>
+    </div>
+
+    <div class="album py-5 hero-color">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card text-bg-dark shadow-sm h-100">
+                        <img src="images\debug_manager.png" class="card-img-top img-cover" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Unity DebugManager (C#)</h5>
+
+                            <p class="card-text text-smaller">
+                                Ferramenta de debug em Unity com Custom Editor que permite criar painéis e gizmos
+                                dinâmicos diretamente pelo Inspector. Suporta diferentes tipos de variáveis (bool, int,
+                                float, string, transform), atualização em tempo real, mudança visual por estado e
+                                detecção de colisões, facilitando a visualização e o diagnóstico durante o gameplay.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-sm btn-outline-secondary"
+                                        href="https://www.youtube.com/watch?v=7ITcORCm9zA" target="_blank"
+                                        rel="noopener noreferrer">
+                                        Youtube
+                                    </a>
+                                    <a class="btn btn-sm btn-outline-secondary"
+                                        href="https://assetstore.unity.com/packages/tools/utilities/debug-manager-ui-tool-275743?srsltid=AfmBOop59Se7XmQC4nZs165hc7gX7bVrL28LKMuz5IBJM6n13yUTPnsl"
+                                        target="_blank" rel="noopener noreferrer">
+                                        Unity
+                                    </a>
+                                    <a class="btn btn-sm btn-outline-secondary"
+                                        href="https://github.com/Vitao2/DebugManager" target="_blank"
+                                        rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card text-bg-dark shadow-sm h-100">
+                        <img src="images\pet_qrcode.png" class="card-img-top img-cover" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Pet ID com QR Code (Flutter / Dart / Firebase)</h5>
+
+                            <p class="card-text text-smaller">
+                                Plataforma web para cadastro e identificação de pets via pingente com QR Code. O sistema
+                                utiliza tokens e hash para validar se o pingente já foi vinculado. Caso não esteja, o
+                                usuário realiza o vínculo criando o pet e associando-o à sua conta. Se o QR Code já
+                                estiver vinculado, a aplicação exibe a página pública do pet com informações de contato
+                                do dono, facilitando a devolução em caso de perda. Backend e autenticação gerenciados
+                                com Firebase.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-sm btn-outline-secondary" href="https://youtu.be/q-P78eEcKvk"
+                                        target="_blank" rel="noopener noreferrer">
+                                        Youtube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card text-bg-dark shadow-sm h-100">
+                        <img src="images\java_icon.jpg" class="card-img-top img-cover" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema CRUD em Java com Banco de Dados (Java / SQL)</h5>
+
+                            <p class="card-text text-smaller">
+                                Aplicação desenvolvida em Java para gerenciamento de uma concessionária de carros,
+                                utilizando múltiplas tabelas relacionadas em banco de dados relacional. O sistema
+                                implementa operações completas de CRUD (Create, Read, Update e Delete) para controle de
+                                informações como veículos, clientes e registros administrativos, permitindo inserção,
+                                consulta, edição e remoção de dados de forma consistente.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-sm btn-outline-secondary"
+                                        href="https://github.com/Vitao2/mv_motors" target="_blank"
+                                        rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Em andamento -->
+
+    <div class="flex-fill d-flex align-items-center justify-content-center py-5 hero-color">
+        <div class="text-center">
+            <h1>Em Desenvolvimento</h1>
+            <p class="text-small fw-light text-center mx-auto" style="max-width: 30rem;"> Trabalhos pessoais nos quais
+                estou desenvolvendo no momento.
+            </p>
+        </div>
+    </div>
+
+    <div class="album py-5 hero-color">
+        <div class="container">
+
+            <div class="row row-cols-1 g-1">
+
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card text-bg-dark shadow-sm h-100">
+                        <img src="images\menu_manager.png" class="card-img-top img-cover" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Unity MenuManager (C#)</h5>
+
+                            <p class="card-text text-smaller">
+                                Ferramenta desenvolvida para facilitar a criação de menus interativos de interface (UI),
+                                permitindo a construção de menus e botões totalmente customizáveis. Suporta configuração
+                                de animações com easing, efeitos sonoros, sistema de input personalizado, ajuste de
+                                tamanho e chamada de funções externas.
+
+                                Os menus são estruturados no formato de nodes, utilizando lógica de grafos para definir
+                                fluxos e transições entre telas. Toda a configuração é armazenada em um gráfico,
+                                possibilitando organização visual e controle do comportamento dos menus.
+
+                                A ferramenta permite salvar conjuntos de menus criados (menu sets) e oferece suporte à
+                                exportação e importação, possibilitando reutilização e transferência entre diferentes
+                                computadores com a ferramenta instalada..
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-sm btn-outline-secondary"
+                                        href="https://github.com/Vitao2/Menu-Manager" target="_blank"
+                                        rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="hero-color-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.linkedin.com/in/victor-hugo-christofoletti-993268268/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Vitao2" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
