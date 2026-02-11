@@ -9,14 +9,6 @@ body {
     margin: 0;
 }
 
-/* ID's */
-#id_titulo {
-    max-width: fit-content;
-    font-size: 4rem;
-    font-weight: lighter;
-    /* border: 1px solid purple; */
-}
-
 #id_texto {
     font-size: 0.5rem;
 }
@@ -37,6 +29,10 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.text-big {
+    font-size: clamp(2.5rem, 8vw, 4rem)
 }
 
 .text-small {
